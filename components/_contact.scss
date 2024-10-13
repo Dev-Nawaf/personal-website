@@ -1,0 +1,68 @@
+@import "./mixins";
+
+.contact {
+  @include towColumns($column-gap: 20rem, $row-gap: 0);
+  align-items: center;
+}
+
+.contact__discription {
+  font-size: var(--font-size-20);
+  line-height: 1.9;
+}
+
+.contact__email {
+  font-weight: var(--font-weight-bold);
+  margin: 2.5rem 0;
+}
+.contact--socials {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact__social {
+  transition: var(--transition-timing);
+  padding-right: 1.2rem;
+}
+.contact__social:first-child {
+  margin-left: 1rem;
+}
+
+.contact__social:hover {
+  transform: scale(2); /*more biger 20%*/
+}
+
+.contact__inputs {
+  display: flex;
+  gap: 3rem;
+}
+
+.contact__input {
+  border: 0;
+  outline: 0;
+  border-bottom: 0.1rem solid var(--color-input-border);
+  background: transparent;
+  flex: 1; /*take width 1/2*/
+}
+
+.contact__textarea {
+  width: 100%;
+  margin-top: 4rem;
+  resize: none;
+}
+
+.contact__button {
+  background-color: var(--color-link-bg);
+  color: var(--color-white);
+  padding: 1.7rem 1.8rem;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-24);
+  box-shadow: 0 0 5px var(--color-link-bg), 0 0 15px var(--color-link-bg),
+    0 0 25px var(--color-link-bg);
+  margin-top: 3.4rem;
+}
+
+form:invalid::after {
+  /*for required inputs add red star*/
+  content: "*";
+  font-size: var(--font-size-38);
+  color: var(--color-red);
+}

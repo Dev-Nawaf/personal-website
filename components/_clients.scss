@@ -1,0 +1,21 @@
+.clients__opinions {
+  grid-column: 1/-1;
+  font-size: var(--font-size-40);
+  line-height: 1.7;
+}
+
+.clients__wrapper {
+  display: flex;
+  overflow-x: auto; /*add scroll to overklower element *left/right**/
+  scroll-snap-type: x mandatory;
+}
+
+// .clients__wrapper::-webkit-scrollbar {
+//   display: none;
+// }
+
+.clients__opinion {
+  flex-basis: 100%; /*full width*/
+  flex-shrink: 0; /*for elements*out layout*/
+  scroll-snap-align: start; /*start from the start of element*/
+}
