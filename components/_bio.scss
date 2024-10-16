@@ -23,8 +23,8 @@
   color: var(--color-dark-blue);
 }
 
-.bio__github {
-  color: hsl(134, 61%, 45%);
+&__bio__github {
+  color: var(--color-green-git);
 }
 
 .bio__links {
