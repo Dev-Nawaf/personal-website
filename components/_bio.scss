@@ -2,33 +2,33 @@
 
 .bio {
   @include towColumns($column-gap: 7.4rem, $row-gap: 0);
-}
 
-.bio__heading {
+
+&__heading {
   font-size: var(--font-size-70);
   font-weight: var(--font-weight-bold);
 }
 
-.bio__objective {
+&__objective {
   font-family: var(--font-family-poppins);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-20);
   margin: 3rem 0 8rem;
 }
 
-.bio__name {
+&__name {
   font-weight: var(--font-weight-semi-bold);
 }
 
-.bio__linkedin {
+&__linkedin {
   color: var(--color-dark-blue);
 }
 
-.bio__github {
+&__github {
   color: var(--color-green-git);
 }
 
-.bio__links {
+&__links {
   font-size: 2.4rem;
   font-weight: var(--font-weight-semi-bold);
   text-decoration: none;
@@ -62,19 +62,19 @@
   }
 }
 
-.bio__arrow {
+&__arrow {
   display: inline-block;
   animation: jump 1s infinite alternate ease-in-out;
 }
 
-.bio__pic-content {
+&__pic-content {
   display: flex;
   position: relative;
   align-items: flex-end;
   justify-self: end;
 }
 
-.bio__pic-content::before {
+&__pic-content::before {
   content: "";
   position: absolute;
   background-color: var(--color-box-img);
@@ -85,6 +85,7 @@
   box-shadow: 2.17543px 8.7017px 38.0699px rgba(0, 0, 0, 0.15);
 }
 
-.bio__pic {
+&__pic {
   width: 42.7rem;
+}
 }
