@@ -14,20 +14,15 @@
   font-weight: var(--font-weight-bold);
   margin: 2.5rem 0;
 }
-.contact--socials {
-  display: flex;
-  justify-content: flex-start;
-}
 .contact__social {
   transition: var(--transition-timing);
-  padding-right: 1.2rem;
 }
 .contact__social:first-child {
   margin-left: 1rem;
 }
 
 .contact__social:hover {
-  transform: scale(2); /*more biger 20%*/
+  transform: scale(1.2); /*more biger 20%*/
 }
 
 .contact__inputs {
