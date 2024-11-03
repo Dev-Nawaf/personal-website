@@ -20,15 +20,15 @@ body,
   max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
   padding-inline: var(--gutter);
 }
-.video-loop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0.1;
-  z-index: -1;
-}
+// .video-loop {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   min-width: 100%;
+//   min-height: 100%;
+//   opacity: 0.1;
+//   z-index: -1;
+// }
 
 .section {
   position: relative;
