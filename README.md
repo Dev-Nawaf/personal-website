@@ -2,9 +2,10 @@
 
 A modern responsive portfolio website showcasing skills, projects, and contact information with dark/light mode support.
 
-### [Website Preview](./design/desktop-review.png](https://github.com/Dev-Nawaf/personal-website/blob/5879f6c532f69d15c8d1dfb294880df0b397c863/design/desktop-review.png?raw=true))
+### [Website Preview](./images/screenshot.png))
 
 ## Key Features
+
 - **Responsive Design**: Optimized for all screen sizes (mobile, tablet, desktop)
 - **Theme Switcher**: Toggle between dark/light modes 🌓
 - **Interactive Elements**:
@@ -17,6 +18,7 @@ A modern responsive portfolio website showcasing skills, projects, and contact i
 - **Star Rating System**: Visual skill level representation
 
 ## Technologies Used 🛠️
+
 - **HTML5**: Semantic markup structure
 - **CSS3**: Custom properties (variables), animations, and Flexbox/Grid layouts
 - **SASS**: CSS preprocessor for maintainable styles
@@ -25,18 +27,19 @@ A modern responsive portfolio website showcasing skills, projects, and contact i
 - **Responsive Design**: Media queries and fluid layouts
 
 ## Website Sections 📚
+
 1. **Bio**: Personal introduction with social links
 2. **Skills**: Technical skills with star ratings (HTML, CSS, JavaScript, etc.)
 3. **Projects**: Featured work samples with descriptions
 4. **Contact**: Email form with social media links
 
 ## Live Demo 🌐
+
 ### [Visit Website](https://dev-nawaf.github.io/personal-website/)
 
-
 ## Author & Contact 📬
+
 **Nawaf Alsayah**  
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/Dev-Nawaf)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/nawaf-alsayah-3748872b5/)  
 [![Gmail](https://img.shields.io/badge/Gmail-Profile-blue?logo=gmail)](mailto:nawaf.alsayah97@gmail.com)
-
