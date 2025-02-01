@@ -1,36 +1,42 @@
-# Personal Webpage Project
+# My Personal Website 💻
 
-## Overview
+A modern responsive portfolio website showcasing skills, projects, and contact information with dark/light mode support.
 
-This project is a personal webpage that I created while learning HTML and CSS. It serves as a portfolio site where I can showcase my skills, work, and experience. The design is fully responsive and optimized for various screen sizes.
+### [Website Preview](./design/desktop-review.png](https://github.com/Dev-Nawaf/personal-website/blob/5879f6c532f69d15c8d1dfb294880df0b397c863/design/desktop-review.png?raw=true))
 
-## Features
+## Key Features
+- **Responsive Design**: Optimized for all screen sizes (mobile, tablet, desktop)
+- **Theme Switcher**: Toggle between dark/light modes 🌓
+- **Interactive Elements**:
+  - Animated navigation menu
+  - Smooth scroll behavior
+  - Hover effects on social links
+  - Download CV button with animation
+- **Project Showcase**: Display work with descriptions and links
+- **Form Validation**: Client-side input validation
+- **Star Rating System**: Visual skill level representation
 
-- Responsive design that adapts to different devices and screen sizes.
-- Clean layout with a focus on accessibility and user experience.
-- Sections include an introduction, skills, portfolio, and contact information.
-- Organized structure using modern CSS techniques like Flexbox and Grid for layout.
+## Technologies Used 🛠️
+- **HTML5**: Semantic markup structure
+- **CSS3**: Custom properties (variables), animations, and Flexbox/Grid layouts
+- **SASS**: CSS preprocessor for maintainable styles
+- **JavaScript**: Basic interactivity and theme switching
+- **Google Fonts**: Poppins and Raleway typefaces
+- **Responsive Design**: Media queries and fluid layouts
 
-## Technologies Used
+## Website Sections 📚
+1. **Bio**: Personal introduction with social links
+2. **Skills**: Technical skills with star ratings (HTML, CSS, JavaScript, etc.)
+3. **Projects**: Featured work samples with descriptions
+4. **Contact**: Email form with social media links
 
-- **HTML5**: For structuring the content of the webpage.
-- **CSS3**: For styling and visual presentation.
-- **Flexbox**: Used for creating flexible and responsive layouts.
-- **CSS Grid**: Used for complex grid-based layouts.
-- **SASS**: For writing more maintainable and scalable CSS.
+## Live Demo 🌐
+### [Visit Website](https://dev-nawaf.github.io/personal-website/)
 
-## Getting Started
 
-To view the project:
+## Author & Contact 📬
+**Nawaf Alsayah**  
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/Dev-Nawaf)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/nawaf-alsayah-3748872b5/)  
+[![Gmail](https://img.shields.io/badge/Gmail-Profile-blue?logo=gmail)](mailto:nawaf.alsayah97@gmail.com)
 
-1. Clone the repository:
-```$ git clone https://github/dev-Nawaf/personal-website.git```
-2. Navigate to the project directory:
-   `$ cd personal-website`
-3. Open the `index.html` file in your browser to view the project.
-
-## Design Preview
-[Design Preview](https://github.com/Dev-Nawaf/personal-website/blob/5879f6c532f69d15c8d1dfb294880df0b397c863/design/desktop-review.png?raw=true)
-   
-## Author
-[Nawaf Alsayah](https://github.com/dev-Nawaf)
