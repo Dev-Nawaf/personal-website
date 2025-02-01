@@ -2,7 +2,7 @@
 
 A modern responsive portfolio website showcasing skills, projects, and contact information with dark/light mode support.
 
-### [Website Preview](./images/screenshot.png))
+### [Website Preview](./images/screenshot.png)
 
 ## Key Features
 
