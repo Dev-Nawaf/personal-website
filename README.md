@@ -1,4 +1,4 @@
-# My Personal Website 💻
+# Personal Website 💻
 
 A modern responsive portfolio website showcasing skills, projects, and contact information with dark/light mode support.
 
